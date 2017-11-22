@@ -33,6 +33,7 @@ class ApplicationController < Sinatra::Base
 
   post "/login" do
     ##your code here
+    puts params
   end
 
   get "/success" do
